@@ -1,0 +1,9 @@
+console.log(typeof(1)); ---> since it is an integer the output will be "number"
+console.log(typeof(1.1)); ---> since it is an float the output will be "number"
+console.log(typeof('1.1')); ---> since the float value is given inside single quotes the output will be "string"
+console.log(typeof(true)); ---> typeof true and false will be "boolean"
+console.log(typeof(null)); ---> the typeof null will be an "object"
+console.log(typeof(undefined)); ---> typeof undefined will be "undefined"
+console.log(typeof([])); ---> an array in javascript is considered as an "object"
+console.log(typeof({})); ---> objects in javascript is an "object" type
+console.log(typeof(NaN)); ---> NaN stands for Not An Number and its datatype is an "number"
